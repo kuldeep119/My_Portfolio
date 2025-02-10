@@ -582,3 +582,180 @@ section {
 html {
     scroll-behavior:smooth;
 }
+
+
+@media screen and (max-width: 720px) {
+    nav {
+        height: auto;
+        flex-direction: row;
+        text-align: center;
+        position: fixed;
+    }
+
+    nav ul {
+        flex-direction: row;
+        padding: 10px 0;
+        justify-content: space-evenly;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .infocontainer {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        margin-top: 10px;
+        height: 100vh;
+    }
+
+    .info {
+        margin-top: 90px;
+        font-size: 2rem;
+        width: 100%;
+        margin-left: 10px;
+        justify-items: center;
+    }
+
+    .pic img {
+        width: 90%;
+    }
+
+    .Hello {
+        font-size: 4.5rem;
+        text-align: left;
+        height: 200px;
+    }
+    .sm{
+     margin-bottom: 150px;
+     margin-left: -260px;
+    height: fit-content;
+    display: flex;
+    }
+    .sm img{
+        width: 60px;
+        height: 60px;
+        margin-right: 10px;
+    }
+
+    .size {
+        font-size: 1.8rem;
+    }
+
+    .second, .third, .fourth, .fifth  {
+        height: 100vh;
+        padding: 30px 15px;
+    }
+    .sixth{
+        height: 80vh;
+        padding: 30px 15px;
+    }
+
+    .box {
+        width: 90%;
+        font-size: 2.1rem;
+    }
+
+    .resume {
+        width: 20%;
+    }
+    .icon{
+        font-size: 3rem;
+        margin-top: 30px;
+    }
+    .icon img{
+        width: 60px;
+        height: 60px;
+        margin-top: 10px;
+    }
+    .sbox{
+        height: 80%;
+        font-size: 2.1rem;
+        margin-top: 30px;
+    }
+
+    .edu1, .edu2, .edu3 {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 25px;
+        width: 100%;
+    }
+    .edu1 img,.edu2 img, .edu3 img {
+        height: 190px;
+        margin-bottom: 5px;
+    }
+    .eduicon{
+        margin-top: 30px;
+    }
+
+    .info1, .info2, .info3 {
+        margin-left: 0;
+        text-align: left;
+        font-size: 0.9rem;
+    }
+
+    .edubox {
+        height: auto;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        height: 70vh;
+        align-items: center;
+        gap: 9rem;
+    }
+    p8{
+        font-size: 2rem;
+    }
+    p3{
+        font-size: 1rem;
+    }
+    p4{
+        font-size: 1rem;
+        margin-left: 90px;
+    }
+    p5{
+        margin-left: 260px;
+        font-size: 1rem;
+     }
+     .form {
+        width: 90%;
+        padding: 15px;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-links ul {
+        padding: 0;
+    }
+    .footer-links{
+        margin-top: 20px;
+    }
+
+    .footer-social {
+        margin-top: 20px;
+    }
+
+    .footer-social a {
+        margin: 5px;
+    }
+    .conicon{
+        margin-top: 100px;
+    }
+    .coninfo{
+        height: 50vh;
+        align-items: center;
+    }
+
+}
